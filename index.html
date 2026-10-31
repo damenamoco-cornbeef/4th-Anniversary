@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f5f0" />
+  <meta name="description" content="A small paper archive of our favorite days." />
+  <title>A little archive of us</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <section class="cover-screen" id="coverScreen" aria-labelledby="coverTitle">
+    <div class="cover-orbit cover-orbit-one" aria-hidden="true">always, in every little way</div>
+    <div class="cover-orbit cover-orbit-two" aria-hidden="true">a collection of us</div>
+    <article class="invitation-card">
+      <p class="eyebrow">MADE WITH LOVE, JUST FOR YOU.</p>
+      <p class="cover-index">A PRIVATE EDITION <span>NO. 01</span></p>
+      <h1 id="coverTitle">Our little<br />paper universe</h1>
+      <p class="cover-intro">A few days, a thousand feelings,<br />and my favorite person in every frame.</p>
+      <div class="heart-entry-wrap">
+        <span class="heart-side-note">THE DAY IT<br />ALL BEGAN</span>
+        <button class="heart-entry" id="beginStory" type="button" aria-label="Click the heart to begin">
+          <span class="heart-photo-collage">
+            <!-- Replace these sample image paths with two favorite photos of you together. -->
+            <img src="assets/images/cam1.jpg" alt="A couple holding hands while walking across a hillside" />
+            <img src="assets/images/dem1.jpg" alt="A golden sunrise over a quiet hillside" />
+          </span>
+          <svg class="heart-outline" viewBox="0 0 120 110" aria-hidden="true"><path d="M60 101C50 91 10 63 8 34 6 9 35 2 54 24l6 8 7-8C87 1 115 10 112 35c-3 27-40 57-52 66Z" /></svg>
+        </button>
+        <span class="heart-side-note heart-side-note-right">SINCE<br /><strong id="coverYear">2022</strong></span>
+      </div>
+      <p class="cover-instruction"><span class="tiny-rule"></span> CLICK THE HEART TO BEGIN <span class="tiny-rule"></span></p>
+      <span class="cover-bottom-mark" aria-hidden="true">D. + C.</span>
+    </article>
+    <span class="floating-heart floating-heart-one" aria-hidden="true">♡</span>
+    <span class="floating-heart floating-heart-two" aria-hidden="true">♥</span>
+  </section>
+
+  <section class="gate-screen is-hidden" id="gateScreen" aria-labelledby="gateTitle" aria-live="polite">
+    <div class="gate-paper" id="gatePaper">
+      <p class="eyebrow">JUST BETWEEN US</p>
+      <span class="gate-heart" aria-hidden="true">♡</span>
+      <h2 id="gateTitle">One little thing<br />only you would know.</h2>
+      <p class="gate-question" id="secretQuestion">What is our special date?</p>
+      <form id="secretForm" novalidate>
+        <label class="visually-hidden" for="secretAnswer">Your answer</label>
+        <input id="secretAnswer" name="answer" type="text" inputmode="text" autocomplete="off" placeholder="MM.DD.YY" />
+        <button class="text-button" type="submit">OPEN OUR STORY <span aria-hidden="true">↗</span></button>
+      </form>
+      <p class="gate-feedback" id="gateFeedback" aria-live="polite"></p>
+      <p class="gate-footnote">A small key for a very big feeling.</p>
+    </div>
+  </section>
+
+  <main class="site-content is-hidden" id="siteContent">
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="Back to the beginning">D <span>♥</span> C</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#chapter">THE DATE</a>
+        <a href="#gallery">PHOTOGRAPHS</a>
+        <a href="#story">OUR STORY</a>
+        <a href="#letter">A NOTE</a>
+      </nav>
+      <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Play music">
+        <span class="music-glyph" aria-hidden="true">♫</span><span class="music-label">SOUND OFF</span>
+      </button>
+    </header>
+
+    <section class="opening-editorial page-section" id="top">
+      <div class="opening-copy reveal">
+        <p class="eyebrow">AN ARCHIVE OF US <span>·</span> VOL. 01</p>
+        <h2>It was always<br />going to be <em>you.</em></h2>
+        <p class="opening-deck">Little ordinary moments, kept close. The quiet proof that my favorite place has always been beside you.</p>
+        <a class="underlined-link" href="#chapter">TURN THE PAGE <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="opening-photo reveal">
+        <span class="photo-pencil-note">somewhere between hello<br />and forever <i>♡</i></span>
+        <img src="assets/images/dem2.jpg" alt="A couple holding hands while walking across a hillside" />
+        <figcaption><span>FIG. 01</span> — THE BEGINNING, IN SOFT FOCUS</figcaption>
+      </figure>
+      <div class="opening-side-note" aria-hidden="true"><span>EST.</span><strong id="openingYear">2022</strong><span>STILL US</span></div>
+    </section>
+
+    <section class="date-section page-section reveal" id="chapter" aria-labelledby="dateHeading">
+      <div class="section-label"><span>01 / THE DAY</span><span>ANOTHER CHAPTER WITH YOU</span></div>
+      <div class="date-composition">
+        <div class="date-day-wrap"><span class="date-kicker">OUR STORY BEGAN ON</span><strong class="date-day" id="dateDay">01</strong></div>
+        <div class="date-month-wrap"><h2 id="dateMonth">NOVEMBER</h2><span class="date-weekday" id="dateWeekday">TUESDAY, OUR FIRST PAGE</span></div>
+        <strong class="date-year" id="dateYear">2022</strong>
+        <span class="date-heart" aria-hidden="true">♡</span>
+      </div>
+      <div class="date-footline"><span class="date-count" id="daysTogether">1,000+ DAYS AND COUNTING</span><span class="date-rule"></span><span>AND I WOULD CHOOSE YOU AGAIN.</span></div>
+      <div class="date-mini-photos" aria-hidden="true">
+        <img src="assets/images/dem3.jpg" alt="" />
+        <span>then, now,<br />always</span>
+        <img src="assets/images/dem4.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="gallery-section page-section" id="gallery" aria-labelledby="galleryHeading">
+      <div class="section-label reveal"><span>02 / THE KEEPSAKES</span><span>HAND-PICKED, HELD CLOSE</span></div>
+      <div class="gallery-heading reveal">
+        <h2 id="galleryHeading">A life in<br /><em>little frames.</em></h2>
+        <div class="gallery-heading-aside">
+          <p>Not every photograph is perfect.<br />Every one feels like us.</p>
+          <button class="cinema-launch" id="playMemoryFilm" type="button">
+            <span class="cinema-play-mark" aria-hidden="true">▶</span>
+            <span class="cinema-launch-copy">WATCH THE MEMORY FILM<small>36 SECONDS · WITH SOUND</small></span>
+            <span class="cinema-launch-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </div>
+      <div class="gallery-board" id="galleryBoard" aria-label="A collection of Polaroid memories"></div>
+      <div class="gallery-footnote"><span>THESE DAYS ARE OURS</span><span>SELECT A PRINT TO LINGER A LITTLE LONGER ↗</span></div>
+    </section>
+
+    <section class="story-section page-section" id="story" aria-labelledby="storyHeading">
+      <div class="section-label reveal"><span>03 / THE PAGES BETWEEN</span><span>A STORY STILL IN PROGRESS</span></div>
+      <div class="story-heading reveal"><h2 id="storyHeading">And then, all<br />the <em>little things.</em></h2><p>A few moments I keep returning to. The dates are small; what they mean to me is not.</p></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="favorite-section page-section" id="favorite" aria-labelledby="favoriteHeading">
+      <div class="section-label reveal"><span>04 / THE ONE I KEEP</span><span>MY FAVORITE VIEW</span></div>
+      <div class="favorite-layout">
+        <p class="favorite-margin favorite-margin-left reveal">I could look<br />at you for<br />a long, long<br />time. <span>♡</span></p>
+        <figure class="favorite-print reveal">
+          <video src="assets/videos/demdem.mp4" poster="assets/images/demdem1.jpg" controls playsinline preload="metadata" aria-label="A short video of us together"></video>
+          <figcaption><span>ONE OF A KIND</span><span>THE LIGHT LOOKED LIKE THIS. YOU LOOKED LIKE HOME.</span></figcaption>
+        </figure>
+        <p class="favorite-margin favorite-margin-right reveal">Still my<br />favorite<br />person in<br />every room.</p>
+      </div>
+    </section>
+
+    <section class="letter-section page-section" id="letter" aria-labelledby="letterHeading">
+      <div class="section-label reveal"><span>05 / A NOTE FOR YOU</span><span>KEEP THIS ONE</span></div>
+      <div class="letter-layout">
+        <div class="letter-scrap letter-scrap-left reveal" aria-hidden="true"><img src="assets/images/dem11.jpg" alt="" /><span>the softer days</span></div>
+        <article class="letter-content reveal">
+          <p class="eyebrow">TO MY FAVORITE HUMAN</p>
+          <h2 id="letterHeading">For all the<br /><em>versions of us.</em></h2>
+          <p class="letter-preview">Happy 4th Anniversary sa atoa, camel ❤️
+
+Grabe, 4 years na diay ta, bab.❤️ Murag dili gihapon ko katuo nga nakaabot ta ani kadugaya. Daghan na kaayo tag naagian, daghan og challenges, misunderstandings, away, tampuhan, ug times nga dili ta magkasinabot, pero here we are, still choosing each other. And for me, that’s one of the most beautiful things about our relationship. Despite everything, ikaw gihapon akong pilion, every single day.</p>
+          <div class="letter-reveal is-hidden" id="finalMessage">
+            <p>Happy 4 years of loving each other, bab. Thank you for staying with me, for understanding me bisan usahay lisod ko sabton, and for loving me even on the days nga dili ko okay. Thank you for being part of my life and for giving me a kind of love nga worth fighting for. I know dili perfect atong relationship, and dili pud perfect ang distance nga naa sa tunga nato, pero I hope you know nga seryoso jud ko sa atoa. Dili lang ni love karon, dili lang ni tungod kay happy ta. I want you even on the hard days, even when things get complicated, and even when the distance makes everything feel so difficult. ❤️</p>
+            <p>LDR is never easy, bab. There are days nga gusto na lang tika i-hug, i-kiss, ug kuyogan without worrying about the distance. Kanang gusto ra ko nga naa ka sa akong kilid, makigchika nimo before matulog, makakita sa imong smile in person, ug makahimo og simple memories with you. Usahay sakit hunahunaon nga through screen ra sa ta magtapad, nga dili tika ma-comfort dayon kung mingawon ka or kung naa kay problema. But even if we're miles apart, I hope you always feel nga naa ra ko diri, loving you in every way I can. Someday, dili na nato kinahanglan mag-goodbye after every call, dili na ta maghulat og months or days para magkita, and we can finally enjoy the little things nga karon atong gina-dream lang. I pray nga maabot ta ana nga time, bab.</p>
+            <p>I know naa koy mga flaws. Usahay overthinker ko, usahay dali ko masakitan, usahay mahimong emotional ko, and sometimes dili nako ma-explain tarong akong gibati. I'm sorry for the times nga nasakitan tika, sa akong mga words nga dili unta nako angay masulti, and sa mga moments nga instead nga magkaintindihan ta, mag-away nuon ta. I'm still learning how to love you better, how to understand you more, and how to become a better partner for you. I don't promise nga dili na ta mag-away, but I promise nga I will keep trying to understand you and work things out with you, as long as we're both willing to fight for us. Dili man nato malikayan ang problems, pero I hope dili nato kalimtan nga kita gihapon ang magkauban nga moatubang ana.❤️</p>
+            <p>Bab, if there's one thing I want you to remember, it's that you are so special to me. Dili lang ikaw akong uyab, ikaw pud akong best friend, akong comfort person, akong pahulay sa kapoy nga adlaw, ug usa sa mga rason nganong naa koy something to look forward to every day. You make me happy in ways nga usahay dili nako ma-explain. Even the smallest things you do can make my day better. Your messages, your voice, your presence bisan pinaagi lang sa screen, and the little moments we share mean so much to me. I hope I make you feel loved the same way you make me feel loved. ❤️</p>
+            <P>Four years down, and I still want more years with you. More birthdays together, more anniversaries, more random calls, more late-night conversations, more silly arguments nga mauwi ra sa panag-uli, more memories, and hopefully, more moments nga magkauban na ta in person. I want to see you grow, achieve your dreams, and become the person you want to be. I want to support you when life gets hard, celebrate with you when things go right, and remind you nga naa kay someone nga proud kaayo nimo.</P>
+            <p>I'm not asking for a perfect love story, bab. I just want a real one with you. A love nga dili dali mo-give up, a love nga willing maminaw, mo-adjust, mo-sabot, ug mo-grow together. I want us to keep choosing each other, not just because we've been together for four years, but because we still see a future worth building together.</p>
+            <p>Thank you for being my person, bab. Thank you for these four years of love, lessons, patience, happiness, and memories. If I could go back to the beginning, knowing all the challenges we would face, I would still want to meet you and experience this love with you. Because despite the distance, the hard days, and everything we've been through, loving you is still something I am grateful for.</p>
+            <p>Happy 4th anniversary sa atoa, my camella home! 🥹💗 I love you so much, more than these words could ever explain. I hope one day, makabawi ta sa tanan nga moments nga dili ta magkauban. I hope maabot ang time nga ako na mismo ang mo-hug nimo, mo-hold sa imong hand, mo-kiss nimo, and tell you how much I love you without a screen between us.</p>
+            <p>Until that day comes, please take care of yourself for me, okay? Ayaw kalimot og kaon sa saktong oras, pagpahulay kung kapoy na, and always remember nga naa ra ko diri para nimo. Even if I can't be physically beside you, my heart will always find its way to you.</p>
+            <p>Four years, countless memories, a thousand reasons to stay, and one person I still want to spend my future with — YOU. Ikaw gihapon, bab. Ikaw ra gihapon akong pili-on. And if life gives us more years together, I hope it will still be you and me, growing, learning, loving, and choosing each other over and over again.</p>
+            <p>I love you always, bab. Happy 4th anniversary to us! Here's to our love, our dreams, and the day nga dili na ta LDR. Soon, we'll finally turn all our “I miss you” into “I'm here na.” </p>
+            <p class="letter-signoff">I LOVE YOU SO MUCH, MY BABI <span>FOUR YEARS DOWN, FOREVER TO GO. .</span></p>
+          </div>
+          <button class="text-button letter-button" id="revealLetter" type="button" aria-expanded="false" aria-controls="finalMessage">READ THE REST <span aria-hidden="true">↓</span></button>
+        </article>
+        <div class="letter-scrap letter-scrap-right reveal" aria-hidden="true"><img src="assets/images/cam1.jpg" alt="" /><svg viewBox="0 0 100 90"><path d="M50 82C42 74 8 51 8 28 8 7 31 2 45 20l5 7 6-7C70 2 93 8 92 29 91 51 59 75 50 82Z" /></svg></div>
+      </div>
+      <p class="letter-bottom-note">HAPPY ANNIVERSARY, MY LOVE <span>·</span> HERE'S TO WHAT COMES NEXT</p>
+    </section>
+
+    <footer class="site-footer"><a class="wordmark" href="#top">D <span>♥</span> C</a><span>MADE OF DAYS, HELD TOGETHER WITH LOVE.</span><button id="replayExperience" class="replay-button" type="button">START AGAIN ↗</button></footer>
+  </main>
+
+  <dialog class="memory-film" id="memoryFilm" aria-label="A cinematic film of our memories">
+    <div class="film-topbar"><span>OUR STORY, IN FRAMES <i>·</i> A PRIVATE FILM</span><button class="film-close" id="closeMemoryFilm" type="button" aria-label="Close memory film">×</button></div>
+    <div class="film-scene" id="filmScene" aria-live="polite">
+      <img class="film-image" id="filmImage" src="assets/images/first-walk.jpg" alt="" />
+      <div class="film-vignette" aria-hidden="true"></div>
+      <div class="film-titles">
+        <p class="film-date" id="filmDate">11.01.22</p>
+        <h2 id="filmCaption">the first long walk</h2>
+        <p class="film-note" id="filmNote">the beginning</p>
+      </div>
+      <span class="film-counter" id="filmCounter">01 / 07</span>
+      <span class="film-grain" aria-hidden="true"></span>
+    </div>
+    <div class="film-footer">
+      <div class="film-progress-track" id="filmProgressTrack" role="progressbar" aria-label="Film progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="filmProgress"></span></div>
+      <div class="film-controls">
+        <button class="film-skip" id="previousFilmScene" type="button" aria-label="Previous film scene">← <span>PREVIOUS</span></button>
+        <button class="film-playback" id="filmPlayback" type="button" aria-pressed="true">Ⅱ &nbsp; PAUSE FILM</button>
+        <button class="film-skip" id="nextFilmScene" type="button" aria-label="Next film scene"><span>NEXT</span> →</button>
+      </div>
+      <p class="film-endnote">A LITTLE FILM FOR ALL THE DAYS THAT MADE US.</p>
+    </div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <div class="lightbox-topline"><span id="lightboxCount">01 / 06</span><button id="closeLightbox" class="icon-button" type="button" aria-label="Close photo viewer">×</button></div>
+    <div class="lightbox-stage" id="lightboxStage">
+      <button class="lightbox-arrow lightbox-previous" id="previousPhoto" type="button" aria-label="Previous photo">←</button>
+      <figure class="lightbox-print" id="lightboxPrint"></figure>
+      <button class="lightbox-arrow lightbox-next" id="nextPhoto" type="button" aria-label="Next photo">→</button>
+    </div>
+    <div class="lightbox-bottom"><span id="lightboxNote">A MOMENT KEPT CLOSE</span><button class="slideshow-button" id="slideshowToggle" type="button" aria-pressed="true">Ⅱ &nbsp; PAUSE</button></div>
+  </dialog>
+
+  <audio id="localSong" loop preload="none"></audio>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
